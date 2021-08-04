@@ -1,0 +1,65 @@
+## Basic Configuration
+
+baseurl = ""
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Tim Aiello"
+title = "Tim Aiello"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Tim Aiello"
+intro = "Masters candidate in Environmental Sciences at the University of Guelph"
+description = ""
+authorimage = "profile.png"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = ""
+keywords = ""
+
+## Social Accounts
+[params.social]
+linkedin = "tim-aiello-1024"
+twitter = "Tim_Aiello"
+instagram = "tima3.14"
+
+## Extras
+[params.extra]
+copyright = "© 2021. Tim Aiello. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+##[[menu.main]]
+##    name = "blog"
+##    weight = 100
+##    identifier = "blog"
+##    url = "/blog/"
+##[[menu.main]]
+##    name = "about"
+##    identifier = "about"
+##    weight = 200
+##    url = "/about/"
+##[[menu.main]]
+##    name = "coderag"
+##    identifier = "coderag"
+##    weight = 300
+##    url = "/coderag/"
